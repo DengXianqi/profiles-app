@@ -15,5 +15,35 @@ The React Compiler is not enabled on this template because of its impact on dev 
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
 
-## Live Link
-[My Live Link](https://dengxianqi.github.io/profiles-app/)
+# Profiles App (Lab 1)
+
+## Dev Container
+
+> Talk about the image you are using here.!
+For eg, if i were to use the Node.js dev container, I would write:
+- Node.js dev container (image: `mcr.microsoft.com/devcontainers/javascript-node:20`)
+- `corepack enable` to use npm/yarn/pnpm reliably
+
+## Getting Started
+\ ```bash
+npm install
+npm run dev
+# open the shown URL (e.g., http://localhost:5173)
+\ ```
+
+## Build
+
+\ ```bash
+npm run build
+\ ```
+
+## Deploy (GitHub Pages via Actions)
+- Ensure `base: '/profiles-app/'` in `vite.config.js`
+- Push to `main`; the CI workflow will build and deploy automatically.
+- Settings → Pages → Source: **GitHub Actions**
+
+**Live URL:** https://dengxianqi.github.io/profiles-app/
+
+## Notes
+- Uses React + React-Bootstrap.
+- We use components, props, and `.map()`.
